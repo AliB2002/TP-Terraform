@@ -83,4 +83,4 @@ après les changements appliquer nous allons mettre faire pareil qu'au dessus et
 
 ![Site 2 test](images/site2-test.png)
 
-![Site 3 test](images/site3-test.png)
+![Site 3 test](images/site3_test.png)
