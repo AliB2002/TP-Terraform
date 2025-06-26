@@ -40,13 +40,13 @@ Lors de l'installation du terraform faudra l'instauré dans le PATH de notre var
 
 pour savoir si terraform est bien instauré nous allons faire un `terraform -v` pour voir si il nous affiche ça version.
 
-![Version Terraform](images\terraform-version.png)
+![Version Terraform](images/terraform-version.png)
 
 par la suite on lance dans le dossier ou ce trouve notre script
 
 `terraform init`
 
-![Apply Terraform](images\terraforminit.png)
+![Apply Terraform](images/terraforminit.png)
 
 puis un 
 
@@ -54,7 +54,7 @@ puis un
 
 cela va montré tout les ajouts que va avoir notre AWS 
 
-![Apply Terraform](images\terraformapply.png)
+![Apply Terraform](images/terraformapply.png)
 
 après ça on confirme le démarrage de notre script et par la suite le script va lancer les créations demandé dans le main.tf.
 
@@ -62,9 +62,9 @@ après que le script est pu ce finalisé , notre outputs va nous fournir notre l
 
 et quand on va sur le lien et qu'on rafraichit notre site web nous montre l'id de différente instance (la 2 vu qu'on a configurer l'autoscalling a 2)
 
-![Site 1](images\site1.png)
+![Site 1](images/site1.png)
 
-![Site 2](images\site2.png)
+![Site 2](images/site2.png)
 
 
 ## Test
@@ -79,8 +79,8 @@ et on peut remarqué avant de confirmer notre apply que la capacité de l'autosc
 
 après les changements appliquer nous allons mettre faire pareil qu'au dessus et on remarque qu'il y a bien 3 instance ID qui apparaisse 
 
-![Site 1 test](images\site1-test.png)
+![Site 1 test](images/site1-test.png)
 
-![Site 2 test](images\site2-test.png)
+![Site 2 test](images/site2-test.png)
 
-![Site 3 test](images\site3-test.png)
+![Site 3 test](images/site3-test.png)
